@@ -20,7 +20,7 @@ function playGame(){
       document.querySelector("h1").innerHTML = "🚩 Harry Wins!";
     }
     else if (randomNumber2 > randomNumber1) {
-      document.querySelector("h1").innerHTML = "Leo loses! 🚩";
+      document.querySelector("h1").innerHTML = "Leo Wins! 🚩";
     }
     else {
       document.querySelector("h1").innerHTML = "Draw!";
